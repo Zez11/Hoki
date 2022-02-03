@@ -139,7 +139,7 @@ def mmmasuk():
     jeeck(" \033[0;36m[\033[0;35m2\033[0;36m]\033[0;00m Join group ") 
     _jeeck_xnxcode_ = raw_input("\n \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Input : ")
     if _jeeck_xnxcode_ in(""):
-	print("%s[!] Isi dengan benar "%(O));exit()
+	print("%s[!] Isi dengan benar"%(O));exit()
     elif _jeeck_xnxcode_ in ('1','01'):
         jeeck("\n%s [%s!%s] %sUntuk terhubung ke sarver anda harus login Terlebih dahulu"%(B,O,B,P))
     	_jeeck_ganteng_kagakadapacar_ = raw_input('%s [%s+%s] %sToken : %s'%(B,O,B,P,B))
